@@ -1,7 +1,7 @@
 from docarray import Document, DocumentArray
 from jina import Flow
 
-from encoder.executor.encoding_executor import EncodingExecutor
+# from encoder.executor.encoding_executor import EncodingExecutor
 from index.index_executor import IndexExecutor
 from preprocessing.preprocessing_executor import PreprocessingExecutor
 
