@@ -1,6 +1,6 @@
 FROM tensorflow/tensorflow
 
-COPY executor /executor_root/
+COPY . /executor_root/
 
 WORKDIR /executor_root
 

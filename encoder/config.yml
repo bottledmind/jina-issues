@@ -1,4 +1,4 @@
 jtype: EncodingExecutor
 metas:
   py_modules:
-    - encoding_executor.py
+    - executor.py

@@ -7,7 +7,7 @@ class EncodingExecutor(Executor):
     def __init__(self, **kwargs):
         super().__init__(**kwargs)
 
-        self.model = tf.keras.models.load_model('encoder/executor/model')
+        self.model = tf.keras.models.load_model('encoder/model')
         # self.model = tf.keras.models.load_model('model')
         # m = tf.keras.applications.EfficientNetB0(include_top=False, input_shape=(224, 224, 3))
         # self.model = tf.keras.models.Sequential([

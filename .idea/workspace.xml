@@ -2,10 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8f769b22-44fc-44da-9b9e-a16afec79c1d" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/app.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/encoder/executor/encoding_executor.py" beforeDir="false" afterPath="$PROJECT_DIR$/encoder/executor/encoding_executor.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/encoder/executor/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/encoder/executor/requirements.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/requirements.txt" beforeDir="false" afterPath="$PROJECT_DIR$/requirements.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/encoder/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/encoder/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/encoder/executor/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/encoder/executor/config.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/encoder/executor/encoding_executor.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/encoder/executor/model/keras_metadata.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/encoder/executor/model/saved_model.pb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/encoder/executor/model/variables/variables.data-00000-of-00001" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/encoder/executor/model/variables/variables.index" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/encoder/executor/requirements.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/preprocessing/preprocessing_executor.py" beforeDir="false" afterPath="$PROJECT_DIR$/preprocessing/executor.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,14 +41,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/ITRANSITION.CORP/n.konovalchuk/test_projects/jina-issues&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "/home/ITRANSITION.CORP/n.konovalchuk/test_projects/jina-issues/preprocessing"
   }
-}</component>
-  <component name="RunManager">
+}]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/preprocessing" />
+      <recent name="$PROJECT_DIR$/encoder" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.app">
     <configuration name="app" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="jina-issues" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -62,9 +76,18 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="preprocessing/Dockerfile" type="docker-deploy" factoryName="dockerfile" temporary="true" server-name="Docker">
+      <deployment type="dockerfile">
+        <settings>
+          <option name="sourceFilePath" value="preprocessing/Dockerfile" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Python.app" />
+        <item itemvalue="Docker.preprocessing/Dockerfile" />
       </list>
     </recent_temporary>
   </component>
